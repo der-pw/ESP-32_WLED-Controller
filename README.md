@@ -13,9 +13,9 @@ Diese Version, mit ESP32, ermöglicht bswp. [Sound Reactive Features](https://gi
 ![Flash Wiring](img/flash_wiring.jpg)  
 
 FTDI oder anderen passenden UART-Wandler gemäß Anschlussplan verbinden.
-Entweder mit gedrücktem FLASH Button verbinden oder wenn der Controller bereits über ein Netzteil versorgt wirden, FLASH gedrückt halten, RESET drücken und danach kann FLASH losgelassen werden.  
+Entweder mit gedrücktem FLASH Button verbinden oder wenn der Controller bereits über ein Netzteil versorgt wirden, FLASH gedrückt halten, RESET kurz drücken und danach kann FLASH losgelassen werden.  
 
-Möglicherweise wird der ESP32 vom FTDI unterversorg und die Brownout Detection reagiert. Daher ist es ratsam, den Controlle bereits mit externen 5V zu versorgen.  
+Möglicherweise wird der ESP32 vom FTDI unterversorgt und die Brownout Detection reagiert. Daher ist es ratsam, den Controller bereits mit einer externen 5V Spannungsquelle zu versorgen.  
 
 Dieser Controller kann mit einem [fertigen Binary](https://install.wled.me/) verwendet werden.
 
