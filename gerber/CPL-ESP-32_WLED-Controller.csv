@@ -1,0 +1,20 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10µF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,157.97,-117.115,-90.0,top
+C2,47µF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,154.77,-117.115,-90.0,top
+C3,100µF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,151.07,-116.865,-90.0,top
+C4,100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,131.53,-118.09,180.0,top
+C5,10µF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,135.98,-118.07,0.0,top
+D1,Flyback diode,D_SMA_Handsoldering,168.53,-102.18,90.0,top
+Q1,IRF7410,SOIC-8_3.9x4.9mm_P1.27mm,168.67,-111.43,0.0,top
+Q2,IRLML6344,SOT-23,161.295,-111.74,270.0,top
+R1,10k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,144.04,-122.52,-90.0,top
+R2,10k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,146.58,-122.52,-90.0,top
+R3,10k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,161.29,-117.1,90.0,top
+R4,300R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,146.0,-116.78,180.0,top
+R5,10k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,161.19,-107.66,0.0,top
+R6,300R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,161.905,-101.2,180.0,top
+SW1,Reset,SW_Push_SPST_NO_Alps_SKRK_handsolder,132.55,-122.47,180.0,top
+SW2,Flash,SW_Push_SPST_NO_Alps_SKRK_handsolder,139.16,-122.48,0.0,top
+U1,AMS1117-3.3,SOT-223-3_TabPin2,154.8,-108.57,270.0,top
+U2,74LVC1G125,SOT-23-5_HandSoldering,154.7,-101.21,90.0,top
+U3,ESP32-WROOM-32,ESP32-WROOM-32,139.605,-104.81,90.0,top
