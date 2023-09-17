@@ -4,9 +4,9 @@
 
 ![PCB-top_3D-Model](images/ESP-32_WLED-Controller.jpg)
 
-This is like an evolution of my [ESP-12-WLED_Controller](https://github.com/der-pw/ESP-12_WLED-Controller). It's based on my ESP-12 Controller, so you can find also all the necessary information about MOSFETs, etc. there as well.
+This is like an evolution of my [ESP-12-WLED_Controller](https://github.com/der-pw/ESP-12_WLED-Controller). It based on my ESP-12 Controller, so you can find also all the necessary information about MOSFETs, etc. there as well.
 
-The version with ESP32 is more powerful and enables features like [Sound Reactive Features](ESP-32_WLED-Controller_Addon) with significantly better performance than the ESP2866. The PCB size has just slightly increased, and the controller can still fit into small projects. To have a clean design and ensure the LED strip works with a 5V data level, I used a 74LVC1G125 as a Logic Level Shifter.
+The version with ESP32 is more powerful and enables features like Sound Reactive https://github.com/atuline/WLED with significantly better performance than the ESP2866. Also you can find here the [Sound Reactive Addon](ESP-32_WLED-Controller_Addon) for this controller. The PCB size has just slightly increased, and the controller can still fit into small projects. To have a clean design and ensure the LED strip works with a 5V data level, I used a 74LVC1G125 as a Logic Level Shifter.
 
 Additionally, the power supply for the LED strip can be turned off by using a P-channel MOSFET. Even when turned off, NEOPIXEL strips consume some power (approximately 1mA per pixel). Luckily, WLED provides an option to control a "Relay" through a user-defined pin. Additional to the P-MOSFET, there is another N-MOSFET. It works as a driver to switch the P-MOSFET with a 5V logic level and also as an inverter, allowing the main MOSFET to logical "active HIGH" at GPIO12 of the ESP.
 
@@ -65,10 +65,10 @@ Gerber and fabrication data were created using the [Fabrication Toolkit](https:/
 ## Deutsch
 ![PCB-top_3D-Modell](images/ESP-32_WLED-Controller.jpg)
 
-Weiterentwicklung meines [ESP-12-WLED_Controllers](https://github.com/der-pw/ESP-12_WLED-Controller). Dieser basiert im wesentlichen auf meinem ESP-12 Controller, daher kannst du alle nötigen Infos über MOSFET etc. auch dort finden. 
-Die Version mit ESP32 ist leistungfähiger und ermöglicht bswp. [Sound Reactive Features](ESP-32_WLED-Controller_Addon) mit wesentlich besserer Performance als es mit einem ESP2866 möglich ist. Die Platinengröße ist nur minimal gewachsen, der Controller lässt sich nach wie vor in kleinen Projekten unterbringen. Für ein sauberes Design und damit der LED-Strip mit einem 5V Datenpegel arbeitet werwende ich einen 74LVC1G125 als Logic Level Shifter.  
+Dies ist die Weiterentwicklung meines [ESP-12-WLED_Controllers](https://github.com/der-pw/ESP-12_WLED-Controller). Daher kannst du alle nötigen Infos über MOSFET etc. auch dort finden.  
+Die Version mit ESP32 ist leistungfähiger und ermöglicht bswp. Sound Reactive Features https://github.com/atuline/WLED. Dafür findes du auch hier ein [Sound Reactive Addon](ESP-32_WLED-Controller_Addon), welches einfach auf den Controller gesteckt werden kann. Die Platinengröße ist nur minimal gewachsen, der Controller lässt sich nach wie vor in kleinen Projekten unterbringen. Für ein sauberes Design und damit der LED-Strip mit einem 5V Datenpegel arbeitet verwende ich einen 74LVC1G125 als Logic Level Shifter.  
 Zusätzlich kann die Versorgungsspannung für den LED-Strip über einen P-Kanal MOSFET abgeschaltet werden. Auch im ausgeschalteten Zustand verbrauchen die NEOPIXEL-Strips nämlich Strom (ca. 1mA/Pixel).
-Praktischerweise bietet WLED hier Zeit, die Möglichkeit über einen frei definierten Pin ein "Relay" zu schalten. Vor dem P-MOSFET sitzt ein weiterer N-MOSFET. Einmal funktioniert dieser als Treiber um den P-MOSFET mit 5V Logikpegel zu schalten und zum anderen als Inverter, damit der Haupt-MOSFET praktisch "active HIGH" am GPIO12 des ESP durchschaltet. 
+Praktischerweise bietet WLED hier die Möglichkeit über einen frei definierten Pin ein "Relay" zu schalten. Vor dem P-MOSFET sitzt ein weiterer N-MOSFET. Einmal funktioniert dieser als Treiber um den P-MOSFET mit 5V Logikpegel zu schalten und zum anderen als Inverter, damit der Haupt-MOSFET praktisch "active HIGH" am GPIO12 des ESP durchschaltet. 
 
 ## Einstellungen
 Die Konfiguration für Ein-/ und Ausgänge erfolgt wie abgebildet.  

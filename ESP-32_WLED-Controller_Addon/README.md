@@ -4,7 +4,7 @@
 
 ![PCB-top_addon](images/addon.jpg)
 
-This addon board allows you to expand the ESP-32_WLED-Controller with the Sound Reactive feature. The board is practically stacked on top of the controller using 2.54mm pin and socket headers.
+This addon board allows you to expand the ESP-32_WLED-Controller with the Sound Reactive feature https://github.com/atuline/WLED. The board is practically stacked on top of the controller using 2.54mm pin and socket headers.
 
 ## Settings
 ![Settings](images/sr_config.jpg)
@@ -30,7 +30,7 @@ The audio jack is named PJ230D. I found it inexpensively at https://de.aliexpres
 
 ![PCB-top_addon](images/addon.jpg)
 
-Mit dieser Addon-Platine lässt sich der ESP-32_WLED-Controller um das Sound Reactive Feature erweitern. Die Platine wird praktisch im "Huckepack" auf den Controller gesteckt.
+Mit dieser Addon-Platine lässt sich der ESP-32_WLED-Controller um das Sound Reactive Feature erweitern https://github.com/atuline/WLED. Die Platine wird praktisch im "Huckepack" auf den Controller gesteckt.
 Dazu lassen sich 2.54mm Stift- und Buchsenleisten verwenden.
 
 ## Einstellungen
