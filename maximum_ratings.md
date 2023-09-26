@@ -1,5 +1,4 @@
 ## Maximum Ratings
-Let's talk about it!
 
 ![IR-Capture](/images/title_maximum_ratings.jpg)  
 
@@ -10,7 +9,7 @@ The Current was measured with a KAIWEETS HT206D clamp meter in good condition.
 Thermal images were made with an Infratec Vario Cam HD, 30mm Lens.
 
 ## Front Side
-"M-Wert" is average of the area. I forgot to switch the language. 
+"M-Wert" is average of the area. But it's also the value for one point. I forgot to switch the language. 
 ### 5 Ampere
 ![Front 5A](/images/mr_frontside_5A.jpg)  
 MOSFET is almost still cold.

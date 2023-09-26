@@ -24,10 +24,12 @@ The STEP file for further modifications is also located in the "case" folder.
 
 | Refs | Qty | Component | Description |
 | --- | --- | --- | ----------- |
-| R1/R2 | 2 | 680R | Resistor 0805  |
-| R3/R4 | 2 | 1M | Resistor 0805  |
-| C1/C2 | 2 | 100nF | Capacitor 0805  |
+| R1, R2 | 2 | 680R | Resistor 0805  |
+| R3, R4 | 2 | 1M | Resistor 0805  |
+| C1, C2 | 2 | 100nF | Capacitor 0805  |
 | J3 | 1 | Audio Jack 3.5mm | PJ230D https://de.aliexpress.com/item/4000661908135.html |
+| J1 | 1 | PinHeader_1x05_P2.54mm_Vertical |
+| J5 | 1 | PinHeader_1x04_P2.54mm_Vertical |
 
 ## Gerber Data
 
@@ -61,10 +63,13 @@ Die STEP-Datei für weitere Modifikationen befindet sich auch in dem Ordner "cas
 
 | Refs | Qty | Component | Description |
 | --- | --- | --- | ----------- |
-| R1/R2 | 2 | 680R | Resistor 0805  |
-| R3/R4 | 2 | 1M | Resistor 0805  |
-| C1/C2 | 2 | 100nF | Capacitor 0805  |
+| R1, R2 | 2 | 680R | Resistor 0805  |
+| R3, R4 | 2 | 1M | Resistor 0805  |
+| C1, C2 | 2 | 100nF | Capacitor 0805  |
 | J3 | 1 | Audio Jack 3.5mm | PJ230D https://de.aliexpress.com/item/4000661908135.html |
+| J1 | 1 | PinHeader_1x05_P2.54mm_Vertical |
+| J5 | 1 | PinHeader_1x04_P2.54mm_Vertical |
+
 
 ## Gerberdaten
 
