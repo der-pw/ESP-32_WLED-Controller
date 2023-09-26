@@ -41,7 +41,25 @@ This controller can be used with a [pre-made binary](https://install.wled.me/).
 
 Connect the LED strip and power supply as per the wiring diagram.
 
-## Parts List
+## Parts List and BOM
+| Designator      | Footprint                                  | Quantity | Value        | Info |
+|---|---|----|----|----|
+| C1, C5        | 0805                                      | 2        | 10µF         |      |
+| C2              | 0805                                      | 1        | 47µF         |      |
+| C3              | 1206                                      | 1        | 100µF        |      |
+| C4              | 0805                                      | 1        | 100nF        |      |
+| D1              | D_SMA_Handsoldering                       | 1        | Flyback diode|      |
+| Q1              | SOIC-8_3.9x4.9mm_P1.27mm                   | 1        | IRF7410      |      |
+| Q2              | SOT-23                                    | 1        | IRLML6344    |      |
+| R1, R2, R3, R5| 0805                                      | 4        | 10k          |      |
+| R4, R6        | 0805                                      | 2        | 300R         |      |
+| SW1             | SW_Push_SPST_NO_Alps_SKRK_handsolder       | 1        | Reset        |      |
+| SW2             | SW_Push_SPST_NO_Alps_SKRK_handsolder       | 1        | Flash        |      |
+| U1              | SOT-223-3_TabPin2                         | 1        | AMS1117-3.3  |      |
+| U2              | SOT-23-5_HandSoldering                    | 1        | 74LVC1G125   |      |
+| U3              | ESP32-WROOM-32                            | 1        | ESP32-WROOM-32|      |
+
+
 Includes parts that need to be soldered by hand.
 
 Quantity | Description | Info
@@ -102,7 +120,25 @@ Dieser Controller kann mit einem [fertigen Binary](https://install.wled.me/) ver
 ![Strip and Power Supply](images/strip_wiring.jpg)  
 LED Strip und Netzteil werden gemäß Anschlussplan verbunden.
 
-## Teileliste
+## Teileliste und BOM
+
+| Designator      | Footprint                                  | Quantity | Value        | Info |
+|---|---|----|----|----|
+| C1, C5        | 0805                                      | 2        | 10µF         |      |
+| C2              | 0805                                      | 1        | 47µF         |      |
+| C3              | 1206                                      | 1        | 100µF        |      |
+| C4              | 0805                                      | 1        | 100nF        |      |
+| D1              | D_SMA_Handsoldering                       | 1        | Flyback diode|      |
+| Q1              | SOIC-8_3.9x4.9mm_P1.27mm                   | 1        | IRF7410      |      |
+| Q2              | SOT-23                                    | 1        | IRLML6344    |      |
+| R1, R2, R3, R5| 0805                                      | 4        | 10k          |      |
+| R4, R6        | 0805                                      | 2        | 300R         |      |
+| SW1             | SW_Push_SPST_NO_Alps_SKRK_handsolder       | 1        | Reset        |      |
+| SW2             | SW_Push_SPST_NO_Alps_SKRK_handsolder       | 1        | Flash        |      |
+| U1              | SOT-223-3_TabPin2                         | 1        | AMS1117-3.3  |      |
+| U2              | SOT-23-5_HandSoldering                    | 1        | 74LVC1G125   |      |
+| U3              | ESP32-WROOM-32                            | 1        | ESP32-WROOM-32|      |
+
 Beinhaltet Teile, die von Hand eingelötet werden müssen.
 Anzahl | Beschreibung | Info
 -------- | -------- | --------
