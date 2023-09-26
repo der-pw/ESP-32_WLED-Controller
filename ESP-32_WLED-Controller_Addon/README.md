@@ -20,10 +20,20 @@ The Analog Input Pin is on `GPIO36`.
 There is also a simple case available for connecting the 3.5mm audio jack.
 The STEP file for further modifications is also located in the "case" folder.
 
+## BOM
+
+| Refs | Qty | Component | Description |
+| --- | --- | --- | ----------- |
+| R1/R2 | 2 | 680R | Resistor 0805  |
+| R3/R4 | 2 | 1M | Resistor 0805  |
+| C1/C2 | 2 | 100nF | Capacitor 0805  |
+| J3 | 1 | Audio Jack 3.5mm | PJ230D https://de.aliexpress.com/item/4000661908135.html |
+
 ## Gerber Data
 
-Even though I believe this tiny thing can be hand-soldered, there are also fabrication data available. However, the assembly is double-sided, as the audio jack is mounted on the underside for space reasons.
-The audio jack is named PJ230D. I found it inexpensively at https://de.aliexpress.com/item/4000661908135.html.
+You can find the manufacturing data for the board in the “gerber” folder.
+In addition, there is also the BOM and CPL data for SMT production. However, the assembly is two-sided, as the jack socket is mounted on the bottom for space reasons.
+The jack socket is called PJ230D. I found these cheaply at https://de.aliexpress.com/item/4000661908135.html.
 
 ---
 ## Deutsch
@@ -47,7 +57,17 @@ Der Analog Input Pin liegt auf `GPIO36`.
 Es gibt auch ein einfaches Gehäuse, damit man den 3,5mm Klinkenstecker anschließen kann.
 Die STEP-Datei für weitere Modifikationen befindet sich auch in dem Ordner "case" 
 
+## BOM
+
+| Refs | Qty | Component | Description |
+| --- | --- | --- | ----------- |
+| R1/R2 | 2 | 680R | Resistor 0805  |
+| R3/R4 | 2 | 1M | Resistor 0805  |
+| C1/C2 | 2 | 100nF | Capacitor 0805  |
+| J3 | 1 | Audio Jack 3.5mm | PJ230D https://de.aliexpress.com/item/4000661908135.html |
+
 ## Gerberdaten
 
-Auch wenn ich der Meinung bin, dass man das kleine Teil von Hand löten kann, gibt es auch hierzu Fertigungsdaten. Die Bestückung ist allerdings zweiseitig, da aus Platzgründen die Klinkenbuchse auf der Unterseite montiert wird.
+Die Fertigungsdaten zur Platine findest du im Ordner "gerber". 
+Zusätzlich gibt es dort auch die BOM und CPL Daten für die SMT-Fetigung. Die Bestückung ist allerdings zweiseitig, da aus Platzgründen die Klinkenbuchse auf der Unterseite montiert wird.
 Die Klinkenbuchse heißt PJ230D. Diese habe ich günstig unter https://de.aliexpress.com/item/4000661908135.html gefunden.
