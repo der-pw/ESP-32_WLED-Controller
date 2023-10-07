@@ -827,7 +827,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 129.54 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07531b2c-b930-4f71-9708-ff3de6584de4)
     (property "Reference" "J2" (at 131.445 138.4299 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -981,7 +981,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 130.175 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5df83d2e-8dd5-4e12-8f5e-d5b5f008a62f)
     (property "Reference" "J4" (at 132.08 118.7449 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1007,7 +1007,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 49.53 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65d0f0fa-4a0b-4735-90ae-7d709ab09aad)
     (property "Reference" "J5" (at 50.8 105.4099 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1035,7 +1035,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 217.805 74.295 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7273dd21-e834-41d3-b279-d7de727709ca)
     (property "Reference" "C2" (at 217.805 81.0514 90)
       (effects (font (size 1.27 1.27)))
@@ -1122,7 +1122,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x05_Female") (at 44.45 71.755 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfab6d6c-b164-46fe-90b3-256e3b330d73)
     (property "Reference" "J1" (at 45.085 61.595 0)
       (effects (font (size 1.27 1.27)))
@@ -1151,7 +1151,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 217.805 67.945 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid d655bb0a-cbf9-4908-ad60-7024ff468fbd)
     (property "Reference" "C1" (at 217.805 61.1886 90)
       (effects (font (size 1.27 1.27)))
