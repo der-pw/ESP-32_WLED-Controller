@@ -2,7 +2,7 @@
 
 [deutsche Version unten ->](#Deutsch)
 
-### TLDR
+### tl;dr
 let's talk about [maximum ratings](./maximum_ratings.md)
 
 ![PCB-top_3D-Model](images/ESP-32_WLED-Controller.jpg)
