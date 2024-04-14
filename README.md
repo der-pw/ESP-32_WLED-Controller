@@ -76,7 +76,6 @@ There is also a simple case available. Both parts can be connected with a click 
 You can find the necessary fabrication data in the “gerber” folder. This also includes the BOM and CPL files. I have had good experiences with JLCPCB, and production there ran smoothly with the data. However, some parts may not always be available.
 
 ## Thank You!
-
 A special thanks to [Aircoookie](https://github.com/Aircoookie) and all those involved in the [WLED](https://github.com/Aircoookie/WLED) project!  
 Gerber and fabrication data were created using the [Fabrication Toolkit](https://github.com/bennymeg/JLC-Plugin-for-KiCad).
 
@@ -121,7 +120,6 @@ Dieser Controller kann mit einem [fertigen Binary](https://install.wled.me/) ver
 LED Strip und Netzteil werden gemäß Anschlussplan verbunden.
 
 ## Teileliste und BOM
-
 | Designator      | Footprint                                  | Quantity | Value        | Info |
 |---|---|----|----|----|
 | C1, C5        | 0805                                      | 2        | 10µF         |      |
@@ -156,7 +154,7 @@ Für Änderungen am Gehäuse liegt im Projektorder die STEP-Datei.
 Du kann die nötigen Fertigungsdaten im Ordner "gerber" finden. Darin enthalten sind auch die BOM und CPL Files. Mit JLCPCB habe ich guter Erfahrungen gemacht, und mit den Daten lief die Fertigung dort auch problemlos. Es ist jedoch möglich, das manche Teile vielleicht nicht immer verfügbar sind.
 
 ## Dankeschön!  
-Ganz besonderer Dank geht an [Aircoookie](https://github.com/Aircoookie) und allen Beteiligten, die am [WLED](https://github.com/Aircoookie/WLED) Projekt mitarbeiten!  
+Ganz besonderer Dank geht an [Aircoookie](https://github.com/Aircoookie) und alle Beteiligten, die am [WLED](https://github.com/Aircoookie/WLED) Projekt mitarbeiten!  
 Gerber und Fertigungsdaten wurden mit [Fabrication Toolkit](https://github.com/bennymeg/JLC-Plugin-for-KiCad) erstellt!
 
 
